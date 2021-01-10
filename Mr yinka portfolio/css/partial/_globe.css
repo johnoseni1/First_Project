@@ -1,0 +1,84 @@
+.title-text{
+    font: normal bold 67px/71px var(--roboto);
+}
+
+.text-uppercase{
+    text-transform: uppercase;
+}
+
+.button{
+    padding: .8rem 2.2rem;
+    font: normal 500 16px/20px var(--roboto);
+    position: relative;
+    border: 3px solid transparent;
+    border-radius: 4px; 
+}
+
+/* .button.primary-button{
+    background: var(--gradient-color);
+    background-clip: padding-box;
+    color: whitesmoke;
+    transition: background.6s ease;
+    box-shadow: var(--box-shadow);
+} */
+
+
+
+.button.primary-button:hover{
+    background: whitesmoke;
+    background-clip: padding-box;
+    color: black;
+}
+
+/* .button.primary-button::after{
+    position: absolute;
+    top: -2px; left: 2px;
+    bottom: -2px;right: -2px;
+    background: var(--gradient-color);
+    content: '';
+    z-index: -1;
+    border-radius: 4px;
+} */
+/* .button.secondary-button{
+    background: white;
+    background-clip: padding-box;
+    transition: background.6s ease;
+} */
+
+.button.secondary-button:hover{
+    background: whitesmoke;
+    background-clip: padding-box;
+    color: black;
+}
+
+
+.about-me{
+    background: whitesmoke;
+    width: auto;
+}
+
+.about-me .about-image{
+    padding: 100px 0px 0px 40px;
+}
+
+.about-me .writing{
+    width: 600px;
+    padding: 70px 0 70px 0;
+    font-size: 24px;
+    font-family: "Roboto",cursive;
+    color: grey;
+}
+
+.footer-area a{
+    color: black;
+    font-size: 30px;
+    font-family: "Roboto",cursive;
+}
+.footer-area .navbar-brand span{
+    color: #4458dc;
+}
+.footer-area .navbar-brand spam{
+    font-size: 18px;
+}
+
+
